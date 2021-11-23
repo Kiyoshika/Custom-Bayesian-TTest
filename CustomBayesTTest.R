@@ -57,7 +57,7 @@ library(BayesFactor)
 trad_tt = c()
 bf_cust = c()
 bf_orig = c()
-for (i in 1:1000)
+for (i in 1:10000)
 {
   x = rnorm(30, mean = 2, sd = 2)
   y = rnorm(30, mean = 3, sd = 2)
